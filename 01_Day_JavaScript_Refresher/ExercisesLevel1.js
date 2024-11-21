@@ -16,3 +16,5 @@ console.log(nums.length);
 let mid =Math.floor(nums.length/2);
 let last =nums.length-1;
 console.log(nums[0],nums[mid],nums[last]);
+
+// Declare an array called mixedDataTypes, put different data types in the array and find the length of the array. The array size should be greater than 5
