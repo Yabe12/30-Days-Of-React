@@ -85,7 +85,18 @@ const sorted = companies.sort();
   // Reverse the array using reverse() method
   const reversed = companies.reverse();
   console.log(reversed);
-  console.log("################################");
+ 
   // Slice out the first 3 companies from the array
 const con=companies.slice(0,4);
 console.log(con);
+console.log("################################********************************");
+// Slice out the last 3 companies from the array3
+const con1=companies.slice(-1,-4);
+console.log(con1);
+// -1 refers to the last element of the array.
+// -4 refers to the fourth-to-last element of the array.
+// Since -1 (start index) is greater than -4 (end index), the method returns an empty array.
+console.log("################################********************************");
+// Slice out the last 3 companies from the array3
+const company=companies.slice(-3);
+console.log(company);
