@@ -110,3 +110,7 @@ console.log(middle);
 const removeFirst = companies.shift();
 console.log(removeFirst);
 console.log(companies);
+// Remove the middle IT company or companies from the array
+const mid1 = Math.floor(companies.length/2);
+const middleRemove = companies.length % 2 == 0 ?companies.splice(mid1 - 1 , mid1 + 1) :companies.splice(mid1, mid1 + 1);
+console.log(companies); 
