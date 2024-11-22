@@ -85,3 +85,7 @@ const sorted = companies.sort();
   // Reverse the array using reverse() method
   const reversed = companies.reverse();
   console.log(reversed);
+  console.log("################################");
+  // Slice out the first 3 companies from the array
+const con=companies.slice(0,4);
+console.log(con);
