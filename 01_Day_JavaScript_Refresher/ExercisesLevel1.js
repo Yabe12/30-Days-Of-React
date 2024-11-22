@@ -63,5 +63,19 @@ mixedDataTypes.push("one",1,true,"two",2,false, {name: 'join'},"three");
       }
     }
     console.log(filerarr);
-
+ // Filter out companies which have no  'o' without the filter method
+ const comp = ["Facebk", "Ggle", "Micrft", "Apple", "IBM", "Oracle", "Amazon"];
+ const filer = [];
+ for (let i=0; i<comp.length ; i++) { 
+   const str = comp[i]
+ 
+   for(let j=0; j<str.length; j++){
+    if(str[j] != "o"){
+     filer.push(str) ;
+     break;
+    }
+   
+   }
+ }
+ console.log(filer);
      
