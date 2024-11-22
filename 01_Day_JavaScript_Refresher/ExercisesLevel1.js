@@ -114,3 +114,12 @@ console.log(companies);
 const mid1 = Math.floor(companies.length/2);
 const middleRemove = companies.length % 2 == 0 ?companies.splice(mid1 - 1 , mid1 + 1) :companies.splice(mid1, mid1 + 1);
 console.log(companies); 
+// Remove the last IT company from the array
+const companies1 = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+const LastRemoved =companies1.pop();
+console.log(LastRemoved);
+console.log(companies1); 
+// Remove all IT companies
+const RemoveAll = companies1.splice(0,companies1.length );
+console.log(RemoveAll);
+console.log(companies1);
