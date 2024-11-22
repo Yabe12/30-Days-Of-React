@@ -30,4 +30,5 @@ mixedDataTypes.push("one",1,true,"two",2,false, {name: 'join'},"three");
   // Print the first company, middle and last company
   const x = companies.length - 1;
   console.log(companies[0], companies[Math.floor(x/2)], companies[x]);
- 
+  // Print out each company
+  companies.forEach(function(company))
