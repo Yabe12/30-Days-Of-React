@@ -78,4 +78,10 @@ mixedDataTypes.push("one",1,true,"two",2,false, {name: 'join'},"three");
    }
  }
  console.log(filer);
-     
+//  Sort the array using sort() method
+
+const sorted = companies.sort();
+  console.log(sorted);
+  // Reverse the array using reverse() method
+  const reversed = companies.reverse();
+  console.log(reversed);
