@@ -31,4 +31,6 @@ mixedDataTypes.push("one",1,true,"two",2,false, {name: 'join'},"three");
   const x = companies.length - 1;
   console.log(companies[0], companies[Math.floor(x/2)], companies[x]);
   // Print out each company
-  companies.forEach(function(company))
+  companies.forEach(function(company){
+    console.log(company);
+  });
