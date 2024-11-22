@@ -34,3 +34,34 @@ mixedDataTypes.push("one",1,true,"two",2,false, {name: 'join'},"three");
   companies.forEach(function(company){
     console.log(company);
   });
+  // Change each company name to uppercase one by one and print them out
+  companies.forEach(function(company){
+    console.log(company.toUpperCase());
+  });
+  // Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
+  console.log(companies.join(' '))
+  // Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found
+  const y = "Ethiopia";
+    if (companies.includes(x)) {
+      console.log(x);
+    } else {
+      console.log("Company is not found");
+    }
+    // Filter out companies which have more than one 'o' without the filter method
+    
+    const filerarr = [];
+    for (let i=0; i<companies.length ; i++) { 
+      const str = companies[i]
+      let count = 0 ;
+      for(let j=0; j<str.length; j++){
+       if(str[j] == "o"){
+        count++;
+       }
+       if(count > 1){
+        filerarr.push(str) ;
+       }
+      }
+    }
+    console.log(filerarr);
+
+     
