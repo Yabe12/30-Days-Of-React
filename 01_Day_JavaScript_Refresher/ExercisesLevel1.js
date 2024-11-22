@@ -18,3 +18,12 @@ let last =nums.length-1;
 console.log(nums[0],nums[mid],nums[last]);
 
 // Declare an array called mixedDataTypes, put different data types in the array and find the length of the array. The array size should be greater than 5
+
+const mixedDataTypes = [];
+mixedDataTypes.push("one",1,true,"two",2,false, {name: 'join'},"three");
+  console.log(mixedDataTypes.length);
+
+  // Declare an array variable name itCompanies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon
+  const companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+  console.log(companies);
+  console.log(companies.length);
