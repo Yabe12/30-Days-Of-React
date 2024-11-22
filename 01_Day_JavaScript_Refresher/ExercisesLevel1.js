@@ -106,3 +106,7 @@ const midd = Math.floor(companies.length/2);
 const middle = companies.length % 2 == 0 ?companies.slice(midd - 1 , midd + 1) :companies.slice(midd, midd + 1);
 
 console.log(middle);
+// Remove the first IT company from the array
+const removeFirst = companies.shift();
+console.log(removeFirst);
+console.log(companies);
