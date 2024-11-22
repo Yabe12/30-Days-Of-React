@@ -100,3 +100,9 @@ console.log("################################********************************");
 // Slice out the last 3 companies from the array3
 const company=companies.slice(-3);
 console.log(company);
+
+// Slice out the middle IT company or companies from the array
+const midd = Math.floor(companies.length/2);
+const middle = companies.length % 2 == 0 ?companies.slice(midd - 1 , midd + 1) :companies.slice(midd, midd + 1);
+
+console.log(middle);
