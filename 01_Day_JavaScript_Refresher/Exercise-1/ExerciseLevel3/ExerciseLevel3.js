@@ -6,7 +6,6 @@ ages.sort();
 console.log(ages);
 const min = ages[0];
 console.log(min);
-console.log("@@@@@@@@@@@@@@");
 const max = ages[ages.length - 1];
 // const median = Math.floor(ages.legth/2);
 let median ;
