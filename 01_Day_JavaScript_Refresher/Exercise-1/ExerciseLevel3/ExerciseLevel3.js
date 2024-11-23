@@ -26,3 +26,18 @@ console.log(average);
 
 const range = (max-min);
 console.log(range);
+
+
+// Compare the value of (min - average) and (max - average), use abs() method
+const val = Math.abs(min - average);
+const val2 = Math.abs(max-average);
+if (val < val2){
+  console.log("val");
+}else{
+  console.log("val2");
+}
+// 1.Slice the first ten countries from the countries array
+const countries = require("../../data/countries");
+
+const firstTenCountries = countries.slice(0, 10);
+console.log(firstTenCountries);
