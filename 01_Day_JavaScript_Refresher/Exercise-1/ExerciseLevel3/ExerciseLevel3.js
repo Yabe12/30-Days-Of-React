@@ -41,3 +41,8 @@ const countries = require("../../data/countries");
 
 const firstTenCountries = countries.slice(0, 10);
 console.log(firstTenCountries);
+// Divide the countries array into two equal arrays if it is even. If countries array is not even , one more country for the first half.
+const midd = Math.floor(countries.length/2);
+const middle = countries.length % 2 == 0 ?countries.slice(midd - 1 , midd + 1) :countries.slice(midd, midd + 1);
+
+console.log(middle);
