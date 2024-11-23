@@ -6,6 +6,7 @@ ages.sort();
 console.log(ages);
 const min = ages[0];
 console.log(min);
+console.log("@@@@@@@@@@@@@@");
 const max = ages[ages.length - 1];
 // const median = Math.floor(ages.legth/2);
 let median ;
@@ -16,8 +17,13 @@ if (ages.length % 2 === 0) {
   median = ages[Math.floor(ages.length / 2)];
 }
 console.log(median);
+
 let sum =0 ;
-for (var i = 0; i < ages.length; i){
+for (var i = 0; i < ages.length; i++){
   sum += ages[i];
 }
 const average = sum / ages.length;
+console.log(average);
+
+const range = (max-min);
+console.log(range);
